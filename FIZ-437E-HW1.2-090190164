@@ -1,0 +1,13 @@
+ITU 2022-2023_GUZ FIZ-437E Howework 1.2 / Batuhan Çakır 090190164
+
+Train için kullanacağım veriyi bessel fonksiyonundan çekmek için numpy array olarak tanımladım
+Ardından sırayla rastgele alınacak veri sayılarını tanımladım. 
+
+Train fonksiyonu tanımladım, bu blokta sklearn kütüphanesinden hazır metodları çekerek önce istenen polinom modelini oluşturdum.
+
+Random x değerleri oluşturdum ve bessel fonksiyonuna gaussian noise ekledim. 
+%80 test %20 eğitim verisi olarak grupladım. 
+Veriyi plot ettirerek görsellik oluşturdum. 
+Çıktı olarak ortalama hatanın karesini aldım.
+
+Grafik oluşturup önceki blokta yazdığım fonksiyonu çağırarak rastgele alınacak 20,100,1000,10000 tane bessel verisine göre elde edilen grafiği ve error miktarını görüntüledim.

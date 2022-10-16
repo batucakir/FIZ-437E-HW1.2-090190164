@@ -1,1 +1,15 @@
+ITU 2022-2023_GUZ FIZ-437E Howework 1.1 / Batuhan Çakır 090190164
+
+Fonkisyonun içerisine göndereceğim bessel fonksiyonunu np arrayi olarak tanımladım.
+Grafikleri çizilecek örnek sayılarını array içerisine tanımladım.
+
+Train fonksiyonu oluşturdum, içerisinde model oluşturmak için sklearn kütüphanesinden hazır metodları kullandım. (İstenen 8. derece polinom, lineer regresyon)
+Besselden çekilecek örnek sayısı kadar veriyi random olarak aldım.
+Gaussian noise aldım.
+Besselden alınan veriye gaussian noise ekledim.
+Verinin %80 ini train, %20 sini test olarak böldüm.
+Modeli fit ederek grafikleri oluşturdum ve ortalama hatanın karesini (error) çıktısı aldım.
+
+Tüm örnekler için train ederek görsel elde ettim ve error miktarını çıktı alarak örnek sayısı arttıkça hata miktarının azadığını gördüm.
+
 
